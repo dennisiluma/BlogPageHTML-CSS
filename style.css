@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #2c198e;
+    color: #fff;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 0px 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.background-section{
+    position: relative;
+    height: 20rem;
+    overflow: hidden;
+}
+.background-image img{
+    width: 110%;
+    height: 20rem;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.overlay-text h1{
+    font-size: 36px;
+}
+.overlay-text p{
+    font-size: 18px;
+}
+.blog-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 20px;
+}
+.blog-posts a{
+    color: #2c198e;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.blog-card{
+    width: calc(25% - 20px);
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.blog-card img{
+    max-width: 100%;
+}
+.popular-posts {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.popular-posts h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.popular-post-card{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.popular-post-card img{
+    width: 10%;
+    height: 10vh;
+}
+popular-post-card h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.popular-post-card a{
+    text-decoration: none;
+    color: #2c198e;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.single-post-content{
+    padding: 20px;
+    text-align: center;
+}
+.single-post-content h2{
+    padding: 10px;
+}
+.single-post-content p{
+    text-align: center;
+    padding: 15px 0px;
+}
